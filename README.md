@@ -1,9 +1,10 @@
 # episode_torque
 Material and code of the episode about calculating torque, and tests with Nema17
 
+The image links to the episode on youtube:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=kFzrrzmT_LY
 " target="_blank"><img src="http://img.youtube.com/vi/kFzrrzmT_LY/0.jpg" 
-alt="Selecting the right stepper motor - Torque test of Nema17 and geared Nema17" width="640" height="480" border="10" /></a>
+alt="Selecting the right stepper motor - Torque test of Nema17 and geared Nema17" width="640" height="360" border="10" target="_blank" /></a>
 
 ## Conversion factors
 Here are the conversion factors to go from Newton-meter to kg-meter or lb-inch:
@@ -19,3 +20,7 @@ Here is the graph for a motor with 0.36Nm:
 And here for the geared version (27:1) with 3Nm:
 ![Torque graph 3Nm](Torque_graph_3NM.png)
 
+## Circuit schematic
+Below is the schematic of all parts involved, 
+the arduino script can be found here: tb6600_joystick.ino
+![Schematic](schematic.jpg)
